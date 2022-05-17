@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "scanometrics"
+authors = [{name = "Christian Rummel", email = "christian.rummel@insel.ch"},
+           {name = "David Romascano", email = "david.romascano@insel.ch"}]
+readme = "README.md"
+# License to be determined
+# license = ... <- fill, sync with License field in classifiers, and uncomment
+# Nipype uses Apache License, version 2.0 https://github.com/nipy/nipype/blob/master/LICENSE
+# Freesurfer has its own license : https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense
+# FSL has its own license : https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence
+# FSLview source is under GPLv2, FSLview binaries use Qt which is released under LGPLv2.1
+# Numpy is under BSD 3-Clause "New" or "Revised" License : https://github.com/numpy/numpy/blob/main/LICENSE.txt
+# Nibabel is under MIT license : https://nipy.org/nibabel/legal.html
+# Classifiers as in https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    # "License :: Free for non-commercial use" <- find license in https://pypi.org/classifiers/ that matches license above
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3"
+              ]
+dynamic = ["version", "description"]
