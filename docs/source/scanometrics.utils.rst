@@ -9,6 +9,14 @@ scanometrics.utils package
 Submodules
 ----------
 
+scanometrics.utils.logging module
+---------------------------------
+
+.. automodule:: scanometrics.utils.logging
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 scanometrics.utils.stats module
 -------------------------------
 
