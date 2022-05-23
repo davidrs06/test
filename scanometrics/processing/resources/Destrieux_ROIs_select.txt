@@ -1,0 +1,5 @@
+XSym
+0085
+4ef9bf01346e6eafa89eef94a3db8f32
+/home/user/PhD/ScanOMetrics/SETTINGS_1/FreeSurfer_6.0.0/Destrieux_ROIs_select_STD.txt
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

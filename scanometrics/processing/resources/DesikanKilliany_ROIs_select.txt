@@ -1,0 +1,5 @@
+XSym
+0091
+c15a06a264439ba8afc39fcf72d1d941
+/home/user/PhD/ScanOMetrics/SETTINGS_1/FreeSurfer_6.0.0/DesikanKilliany_ROIs_select_STD.txt
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
