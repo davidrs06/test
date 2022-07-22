@@ -230,7 +230,8 @@ class ScanOMetrics_project:
     ######################
 
     def flag_outliers(self, k):
-        """Label subjects as outlier if morphological value :math:`x\not\in[q_25-k*IQR;q_75+k*IQR]`, where q_25 and q_75
+        """
+        Label subjects as outlier if morphological value :math:`x\not\in[q_25-k*IQR;q_75+k*IQR]`, where q_25 and q_75
         are the 25th and 75th percentiles, IQR is the interquartile range, and k sets the threshold of how many IQRs are
         considered for labeling outliers. Subjects are compared to their age matching group [0.9*age,1.1*age]. The
         'metrics' matrix is a NxM matrix with N subjects and M metrics (eg self.measured_metrics or
