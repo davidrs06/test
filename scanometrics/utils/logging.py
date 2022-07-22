@@ -3,7 +3,7 @@ Implements logging functions throughout ScanOMetrics package
 """
 
 
-from os import EX_USAGE # "command used incorrectly" exit code
+from os import EX_USAGE  # "command used incorrectly" exit code
 from sys import exit
 __VERBOSE_LEVEL__ = 0
 
@@ -43,3 +43,4 @@ def ERROR(msg, prefix=''):
     if __VERBOSE_LEVEL__ >= 1:
         print(prefix+"\033[0;30;41m[ ERROR ]\033[0;31m %s\033[0m\n" % msg)
     exit(EX_USAGE)
+

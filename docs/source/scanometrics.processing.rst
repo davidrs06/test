@@ -17,10 +17,10 @@ scanometrics.processing.freesurfer module
    :undoc-members:
    :show-inheritance:
 
-scanometrics.processing.quantifyBrainStructures module
-------------------------------------------------------
+scanometrics.processing.pipeline\_template module
+-------------------------------------------------
 
-.. automodule:: scanometrics.processing.quantifyBrainStructures
+.. automodule:: scanometrics.processing.pipeline_template
    :members:
    :undoc-members:
    :show-inheritance:

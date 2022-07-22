@@ -7,8 +7,15 @@ name = "scanometrics"
 authors = [{name = "Christian Rummel", email = "christian.rummel@insel.ch"},
            {name = "David Romascano", email = "david.romascano@insel.ch"}]
 readme = "README.md"
-# License to be determined
-# license = ... <- fill, sync with License field in classifiers, and uncomment
+# license = ... <- fill, sync with License field in 'classifiers' field below, and uncomment both here and classifiers.license
+# License to be determined. OSI is the Open Source Initiative, which approves ~68 standard licences: https://opensource.org/licenses-draft
+# OSI recomends 4 licenses for developers that are not familiar with legal aspects, or cannot discuss with a lawyer
+#    - Apache License 2.0 (Apache-2.0)
+#    - GNU General Public License version 3.0 (GPL-3.0)  [note this is a copyleft-style license]
+#    - BSD 2-Clause License (BSD-2-Clause)  [also called "Simplified BSD" or "FreeBSD"]
+#    - MIT license (MIT)
+# Connectome mapper 3 uses open-source 3-Clause BSD License along with a LICENSE file (aka BSD 3-Clause License, or BSD-3-Clause)
+# 3rd clause is "Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission."
 # Nipype uses Apache License, version 2.0 https://github.com/nipy/nipype/blob/master/LICENSE
 # Freesurfer has its own license : https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense
 # FSL has its own license : https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence

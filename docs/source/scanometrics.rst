@@ -14,3 +14,22 @@ Subpackages
 
    scanometrics.processing
    scanometrics.utils
+
+Submodules
+----------
+
+scanometrics.core module
+------------------------
+
+.. automodule:: scanometrics.core
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+scanometrics.normative\_models module
+-------------------------------------
+
+.. automodule:: scanometrics.normative_models
+   :members:
+   :undoc-members:
+   :show-inheritance:
