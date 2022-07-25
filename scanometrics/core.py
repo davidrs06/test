@@ -231,22 +231,7 @@ class ScanOMetrics_project:
 
     def flag_outliers(self, k):
         """
-        Label subjects as outlier if morphological value, where q_25 and q_75
-        are the 25th and 75th percentiles, IQR is the interquartile range, and k sets the threshold of how many IQRs are
-        considered for labeling outliers. Subjects are compared to their age matching group [0.9*age,1.1*age]. The
-        'metrics' matrix is a NxM matrix with N subjects and M metrics (eg self.measured_metrics or
-        self.normativeModel.residuals). The quantiles are computed using numpy.quantile and the 'hazen' method, to
-        obtain the same results as the Matlab 'quantile' function.
-
-        :param self: current class with measured values to check for outliers. The subject list is modified with outlier
-        field set to 1 when appropriate. Self has a 'measured_metrics' numpy array of size (N,M), where N is
-        the number of subjects and M is the number of metrics, a 'metric_names' list of length M with the names of the
-        M metrics, and a 'selected_metrics' boolean array of size (N,1) that specifies which metrics are been
-        considered. Another field related to the normative model should have a 'estimate' (estimated model parameters)
-        (with size (N,V) where V is the number of parameters in the developmental model) and 'estimated_metrics' numpy
-        array of size (N, M).
-        :param k: factor of IQRs to be used as threshold for outlier detection.
-        :type k: float > 0.
+	Blank docstring to see if this was a issue for ReadTheDocs
         """
         
         if k < 0:
