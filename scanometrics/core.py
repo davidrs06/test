@@ -245,6 +245,7 @@ class ScanOMetrics_project:
 	considered. Another field related to the normative model should have a 'estimate' (estimated model parameters)
 	(with size (N,V) where V is the number of parameters in the developmental model) and 'estimated_metrics' numpy
 	array of size (N, M).
+	:type self: ScanOMetrics_project
 	:param k: factor of IQRs to be used as threshold for outlier detection.
 	:type k: float > 0.
         """
