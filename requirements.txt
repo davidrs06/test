@@ -42,7 +42,6 @@ python-dateutil==2.8.2
 python2==1.2
 pytz==2022.1
 requests==2.27.1
-scanometrics @ file:///home/david/Projects/ScanOMetrics/python_package
 scipy==1.8.1
 six==1.16.0
 snowballstemmer==2.2.0
