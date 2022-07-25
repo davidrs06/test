@@ -248,7 +248,6 @@ class ScanOMetrics_project:
 	:param k: factor of IQRs to be used as threshold for outlier detection.
 	:type k: float > 0.
         """
-        
         if k < 0:
             logging.ERROR('Parameter k in flag_outliers() is negative, should be >= 0.')
         if self.measured_metrics.shape == (0,):
