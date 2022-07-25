@@ -3,7 +3,7 @@ Fit normative data (tutorial)
 
 The following tutorial illustrates how to use the ScanOMetrics package to fit a polynomial model to a normative dataset.
 
-Make sure ScanOMetrics package has been properly [installed](/usage#Installation).
+Make sure ScanOMetrics package has been properly :ref:`installed <installation>`.
 
 Import the ScanOMetrics_project class::
 
