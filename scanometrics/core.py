@@ -231,7 +231,12 @@ class ScanOMetrics_project:
 
     def flag_outliers(self, k):
         """
-	Blank docstring to see if this was a issue for ReadTheDocs
+	Label subjects as outlier if morphological value, where q_25 and q_75
+	are the 25th and 75th percentiles, IQR is the interquartile range, and k sets the threshold of how many IQRs are
+	considered for labeling outliers. Subjects are compared to their age matching group [0.9*age,1.1*age]. The
+	'metrics' matrix is a NxM matrix with N subjects and M metrics (eg self.measured_metrics or
+	self.normativeModel.residuals). The quantiles are computed using numpy.quantile and the 'hazen' method, to
+	obtain the same results as the Matlab 'quantile' function.
         """
         
         if k < 0:
