@@ -238,14 +238,6 @@ class ScanOMetrics_project:
 	self.normativeModel.residuals). The quantiles are computed using numpy.quantile and the 'hazen' method, to
 	obtain the same results as the Matlab 'quantile' function.
 
-	:param self: current class with measured values to check for outliers. The subject list is modified with outlier
-	field set to 1 when appropriate. Self has a 'measured_metrics' numpy array of size (N,M), where N is
-	the number of subjects and M is the number of metrics, a 'metric_names' list of length M with the names of the
-	M metrics, and a 'selected_metrics' boolean array of size (N,1) that specifies which metrics are been
-	considered. Another field related to the normative model should have a 'estimate' (estimated model parameters)
-	(with size (N,V) where V is the number of parameters in the developmental model) and 'estimated_metrics' numpy
-	array of size (N, M).
-	:type self: ScanOMetrics_project
 	:param k: factor of IQRs to be used as threshold for outlier detection.
 	:type k: float > 0.
         """
